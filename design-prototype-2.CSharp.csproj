@@ -67,7 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BitchBall.cs" />
-    <Compile Include="Assets\ConeDrawer.cs" />
+    <Compile Include="Assets\BitchBallSpecial.cs" />
+    <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\DrawingController.cs" />
+    <Compile Include="Assets\FollowResultantVector.cs" />
     <Compile Include="Assets\GlobalVariables.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SlidingMax.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedFloat.cs" />
@@ -191,14 +194,20 @@
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionBehaviourBaseValidation.cs" />
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionBehaviourValidation.cs" />
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionManagerValidation.cs" />
+    <Compile Include="Assets\LineRendererDrawers\AxisDrawer.cs" />
+    <Compile Include="Assets\LineRendererDrawers\AxisXDrawer.cs" />
+    <Compile Include="Assets\LineRendererDrawers\AxisYDrawer.cs" />
+    <Compile Include="Assets\LineRendererDrawers\AxisZDrawer.cs" />
+    <Compile Include="Assets\LineRendererDrawers\DiskDrawer.cs" />
     <Compile Include="Assets\LinearTransformation.cs" />
-    <Compile Include="Assets\RadialVectorDrawer.cs" />
-    <Compile Include="Assets\ResultantVectorDrawer.cs" />
     <Compile Include="Assets\RingDrawer.cs" />
-    <Compile Include="Assets\ScriptController.cs" />
-    <Compile Include="Assets\XComponentDrawer.cs" />
-    <Compile Include="Assets\YComponentDrawer.cs" />
-    <Compile Include="Assets\ZComponentDrawer.cs" />
+    <Compile Include="Assets\SpecialBitchBall.cs" />
+    <Compile Include="Assets\Vectors\RComponentDrawer.cs" />
+    <Compile Include="Assets\Vectors\RadialVectorDrawer.cs" />
+    <Compile Include="Assets\Vectors\ResultantVectorDrawer.cs" />
+    <Compile Include="Assets\Vectors\XComponentDrawer.cs" />
+    <Compile Include="Assets\Vectors\YComponentDrawer.cs" />
+    <Compile Include="Assets\Vectors\ZComponentDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeapMotion\Dependencies.txt" />
