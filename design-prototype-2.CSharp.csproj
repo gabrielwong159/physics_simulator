@@ -66,11 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BitchBall.cs" />
-    <Compile Include="Assets\BitchBallSpecial.cs" />
-    <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\DrawingController.cs" />
-    <Compile Include="Assets\FollowResultantVector.cs" />
     <Compile Include="Assets\GlobalVariables.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SlidingMax.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedFloat.cs" />
@@ -194,20 +190,23 @@
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionBehaviourBaseValidation.cs" />
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionBehaviourValidation.cs" />
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionManagerValidation.cs" />
-    <Compile Include="Assets\LineRendererDrawers\AxisDrawer.cs" />
-    <Compile Include="Assets\LineRendererDrawers\AxisXDrawer.cs" />
-    <Compile Include="Assets\LineRendererDrawers\AxisYDrawer.cs" />
-    <Compile Include="Assets\LineRendererDrawers\AxisZDrawer.cs" />
-    <Compile Include="Assets\LineRendererDrawers\DiskDrawer.cs" />
     <Compile Include="Assets\LinearTransformation.cs" />
-    <Compile Include="Assets\RingDrawer.cs" />
-    <Compile Include="Assets\SpecialBitchBall.cs" />
-    <Compile Include="Assets\Vectors\RComponentDrawer.cs" />
-    <Compile Include="Assets\Vectors\RadialVectorDrawer.cs" />
-    <Compile Include="Assets\Vectors\ResultantVectorDrawer.cs" />
-    <Compile Include="Assets\Vectors\XComponentDrawer.cs" />
-    <Compile Include="Assets\Vectors\YComponentDrawer.cs" />
-    <Compile Include="Assets\Vectors\ZComponentDrawer.cs" />
+    <Compile Include="Assets\MovementControllers\BitchBall.cs" />
+    <Compile Include="Assets\MovementControllers\BitchBallSpecial.cs" />
+    <Compile Include="Assets\MovementControllers\CameraController.cs" />
+    <Compile Include="Assets\MovementControllers\ResultantVectorDiskMovement.cs" />
+    <Compile Include="Assets\StaticShapeDrawers\AxisDrawer.cs" />
+    <Compile Include="Assets\StaticShapeDrawers\AxisXDrawer.cs" />
+    <Compile Include="Assets\StaticShapeDrawers\AxisYDrawer.cs" />
+    <Compile Include="Assets\StaticShapeDrawers\AxisZDrawer.cs" />
+    <Compile Include="Assets\StaticShapeDrawers\DiskDrawer.cs" />
+    <Compile Include="Assets\StaticShapeDrawers\RingDrawer.cs" />
+    <Compile Include="Assets\VectorDrawers\RComponentDrawer.cs" />
+    <Compile Include="Assets\VectorDrawers\RadialVectorDrawer.cs" />
+    <Compile Include="Assets\VectorDrawers\ResultantVectorDrawer.cs" />
+    <Compile Include="Assets\VectorDrawers\XComponentDrawer.cs" />
+    <Compile Include="Assets\VectorDrawers\YComponentDrawer.cs" />
+    <Compile Include="Assets\VectorDrawers\ZComponentDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeapMotion\Dependencies.txt" />
