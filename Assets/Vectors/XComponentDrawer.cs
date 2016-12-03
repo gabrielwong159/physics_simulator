@@ -21,8 +21,8 @@ public class XComponentDrawer : MonoBehaviour {
     }
 	
 	void Update () {
-        if (DrawingController.state == DrawingController.DEFAULT) drawXVector(Time.time);
-        else if (DrawingController.state == DrawingController.MANUAL) drawXVector(GlobalVariables.rotationAngle);
+        if (KeyboardController.state == KeyboardController.DEFAULT) drawXVector(Time.time);
+        else if (KeyboardController.state == KeyboardController.MANUAL) drawXVector(GlobalVariables.rotationAngle);
         else line.SetPosition(1, transform.position);
     }
 

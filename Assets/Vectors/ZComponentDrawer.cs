@@ -22,8 +22,8 @@ public class ZComponentDrawer : MonoBehaviour {
     }
     
     void Update() {
-        if (DrawingController.state == DrawingController.DEFAULT || DrawingController.state == DrawingController.RADIAL) drawZVector(Time.time);
-        else if (DrawingController.state == DrawingController.MANUAL) drawZVector(GlobalVariables.rotationAngle);
+        if (KeyboardController.state == KeyboardController.DEFAULT || KeyboardController.state == KeyboardController.RADIAL) drawZVector(Time.time);
+        else if (KeyboardController.state == KeyboardController.MANUAL) drawZVector(GlobalVariables.rotationAngle);
     }
 
     void drawZVector(float t) {

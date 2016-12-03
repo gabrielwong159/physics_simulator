@@ -21,8 +21,8 @@ public class YComponentDrawer : MonoBehaviour {
     }
     
     void Update() {
-        if (DrawingController.state == DrawingController.DEFAULT) drawYVector(Time.time);
-        else if (DrawingController.state == DrawingController.MANUAL) drawYVector(GlobalVariables.rotationAngle);
+        if (KeyboardController.state == KeyboardController.DEFAULT) drawYVector(Time.time);
+        else if (KeyboardController.state == KeyboardController.MANUAL) drawYVector(GlobalVariables.rotationAngle);
         else line.SetPosition(1, transform.position);
     }
     

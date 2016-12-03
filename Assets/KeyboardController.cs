@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DrawingController : MonoBehaviour {
+public class KeyboardController : MonoBehaviour {
 
     public const int DEFAULT = 1;
     public const int RADIAL = 2;

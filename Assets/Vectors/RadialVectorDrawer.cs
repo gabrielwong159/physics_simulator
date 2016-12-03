@@ -20,8 +20,8 @@ public class RadialVectorDrawer : MonoBehaviour {
     }
 	
 	void Update () {
-        if (DrawingController.state == DrawingController.DEFAULT || DrawingController.state == DrawingController.RADIAL) drawRVector(Time.time);
-        else if (DrawingController.state == DrawingController.MANUAL) drawRVector(GlobalVariables.rotationAngle);
+        if (KeyboardController.state == KeyboardController.DEFAULT || KeyboardController.state == KeyboardController.RADIAL) drawRVector(Time.time);
+        else if (KeyboardController.state == KeyboardController.MANUAL) drawRVector(GlobalVariables.rotationAngle);
         else line.SetPosition(1, transform.position);
     }
 

@@ -26,8 +26,8 @@ public class RComponentDrawer : MonoBehaviour {
     }
 
     void Update() {
-        if (DrawingController.state == DrawingController.RADIAL) drawRVector(Time.time);
-        else if (DrawingController.state == DrawingController.PALPATINE) {
+        if (KeyboardController.state == KeyboardController.RADIAL) drawRVector(Time.time);
+        else if (KeyboardController.state == KeyboardController.PALPATINE) {
         }
         else line.SetPosition(1, transform.position);
     }

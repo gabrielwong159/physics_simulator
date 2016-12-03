@@ -24,16 +24,16 @@ public class ResultantVectorDrawer : MonoBehaviour {
     }
 	
 	void Update () {
-        if (DrawingController.state == DrawingController.DEFAULT || DrawingController.state == DrawingController.RADIAL) drawSingleVector(Time.time);
-        else if (DrawingController.state == DrawingController.MANUAL) drawSingleVector(GlobalVariables.rotationAngle);
+        if (KeyboardController.state == KeyboardController.DEFAULT || KeyboardController.state == KeyboardController.RADIAL) drawSingleVector(Time.time);
+        else if (KeyboardController.state == KeyboardController.MANUAL) drawSingleVector(GlobalVariables.rotationAngle);
     }
 
     private void drawSingleVector(float t) {
         Vector3 center = transform.position;
 
         float theta = Mathf.Deg2Rad * t * travelSpeed;
-        float dx = -1 * Mathf.Cos(theta) * lineSize;
-        float dy = -1 * Mathf.Sin(theta) * lineSize;
+        float dx = -1 * Mathf.Cos(theta) * lineSize * radius;
+        float dy = -1 * Mathf.Sin(theta) * lineSize * radius;
         float dz = (transform.position.z - gameObject.transform.position.z) * lineSize;
 
         Vector3 pos = new Vector3(center.x + dx, center.y + dy, center.z + dz);

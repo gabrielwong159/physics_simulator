@@ -66,12 +66,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BitchBall.cs" />
-    <Compile Include="Assets\BitchBallSpecial.cs" />
-    <Compile Include="Assets\CameraController.cs" />
-    <Compile Include="Assets\DrawingController.cs" />
-    <Compile Include="Assets\FollowResultantVector.cs" />
+    <Compile Include="Assets\DiskSizeController.cs" />
     <Compile Include="Assets\GlobalVariables.cs" />
+    <Compile Include="Assets\KeyboardController.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SlidingMax.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedFloat.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedQuaternion.cs" />
@@ -199,9 +196,12 @@
     <Compile Include="Assets\LineRendererDrawers\AxisYDrawer.cs" />
     <Compile Include="Assets\LineRendererDrawers\AxisZDrawer.cs" />
     <Compile Include="Assets\LineRendererDrawers\DiskDrawer.cs" />
+    <Compile Include="Assets\LineRendererDrawers\RingDrawer.cs" />
     <Compile Include="Assets\LinearTransformation.cs" />
-    <Compile Include="Assets\RingDrawer.cs" />
-    <Compile Include="Assets\SpecialBitchBall.cs" />
+    <Compile Include="Assets\Movement\BitchBall.cs" />
+    <Compile Include="Assets\Movement\BitchBallSpecial.cs" />
+    <Compile Include="Assets\Movement\FollowResultantVector.cs" />
+    <Compile Include="Assets\Movement\SpecialBitchBall.cs" />
     <Compile Include="Assets\Vectors\RComponentDrawer.cs" />
     <Compile Include="Assets\Vectors\RadialVectorDrawer.cs" />
     <Compile Include="Assets\Vectors\ResultantVectorDrawer.cs" />
