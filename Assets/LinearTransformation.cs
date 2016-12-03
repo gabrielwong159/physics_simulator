@@ -20,4 +20,3 @@ public class LinearTransformation : MonoBehaviour {
         return new Vector3(vector.x * cos - vector.z * sin, vector.y, vector.x * sin + vector.z * cos);
     }
 }
-

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ResultantVectorDiskMovement : MonoBehaviour {
+public class FollowResultantVector : MonoBehaviour {
 
     float lineSize;
 
