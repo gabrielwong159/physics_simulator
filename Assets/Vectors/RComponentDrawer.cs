@@ -26,10 +26,13 @@ public class RComponentDrawer : MonoBehaviour {
     }
 
     void Update() {
+        line.SetPosition(0, transform.position);
         if (KeyboardController.state == KeyboardController.RADIAL) drawRVector(Time.time);
         else if (KeyboardController.state == KeyboardController.PALPATINE) {
         }
-        else line.SetPosition(1, transform.position);
+        else {
+            line.SetPosition(1, transform.position);
+        }
     }
 
     void drawRVector(float t) {
@@ -40,7 +43,6 @@ public class RComponentDrawer : MonoBehaviour {
         float dy = -1 * Mathf.Sin(theta) * lineSize;
 
         Vector3 pos = new Vector3(center.x + dx, center.y + dy, center.z);
-        line.SetPosition(0, center);
         line.SetPosition(1, pos);
     }
 }
