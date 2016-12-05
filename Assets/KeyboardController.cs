@@ -30,7 +30,7 @@ public class KeyboardController : MonoBehaviour {
             triggeredTime = Time.realtimeSinceStartup;
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow)) GlobalVariables.rotationAngle += 0.1f;
-        else if (Input.GetKeyDown(KeyCode.DownArrow)) GlobalVariables.rotationAngle -= 0.1f;
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.LeftArrow)) GlobalVariables.rotationAngle += 0.1f;
+        else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.RightArrow)) GlobalVariables.rotationAngle -= 0.1f;
     }
 }

@@ -66,6 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DiskRendererScript.cs" />
     <Compile Include="Assets\DiskSizeController.cs" />
     <Compile Include="Assets\GlobalVariables.cs" />
     <Compile Include="Assets\KeyboardController.cs" />
