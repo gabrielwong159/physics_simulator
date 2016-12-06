@@ -26,8 +26,8 @@ public class AxisXDrawer : MonoBehaviour {
         Vector3 center = transform.position;
 
         line.SetPosition(0, center);
-        line.SetPosition(1, center + new Vector3(-axisSize, 0, 0));
+        line.SetPosition(1, center + new Vector3(axisSize, 0, 0));
 
-        x.transform.position = center + new Vector3(-axisSize + axisTextOffset, 0, 0);
+        x.transform.position = center + new Vector3(axisSize + axisTextOffset, 0, 0);
     }
 }
