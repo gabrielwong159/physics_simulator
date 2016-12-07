@@ -15,6 +15,12 @@ Contains functions for controlling the simulation via KeyInput
 * *Alpha2* : r,z mode
 * *Alpha3* : Manual control mode via arrow keys
 
+**DiskRendererScript.cs**<br />
+You don't want to know.
+
+**MerryGoRound.cs**<br />
+Script for spinning camera about the set-up.
+
 ## Scripts for line rendering ```LineRendererDrawers```
 **AxisXDrawer.cs, AxisYDrawer.cs, AxisZDrawer.cs** <br />
 Draws the lines for the x, y and z axes.
