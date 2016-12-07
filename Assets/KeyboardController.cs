@@ -10,7 +10,7 @@ public class KeyboardController : MonoBehaviour {
 
     public static int state = DEFAULT;
 
-    float triggeredTime;
+    private float triggeredTime;
 
 	void Start () {
         triggeredTime = Time.realtimeSinceStartup;
