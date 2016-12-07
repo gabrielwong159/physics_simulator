@@ -66,6 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\DiskRendererScript.cs" />
     <Compile Include="Assets\DiskSizeController.cs" />
     <Compile Include="Assets\GlobalVariables.cs" />
@@ -198,6 +199,7 @@
     <Compile Include="Assets\LineRendererDrawers\DottedLineDrawer.cs" />
     <Compile Include="Assets\LineRendererDrawers\RingDrawer.cs" />
     <Compile Include="Assets\LinearTransformation.cs" />
+    <Compile Include="Assets\MerryGoRound.cs" />
     <Compile Include="Assets\Movement\BitchBall.cs" />
     <Compile Include="Assets\Movement\BitchBallSpecial.cs" />
     <Compile Include="Assets\Movement\FollowResultantVector.cs" />
