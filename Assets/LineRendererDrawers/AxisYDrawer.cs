@@ -28,6 +28,6 @@ public class AxisYDrawer : MonoBehaviour {
         line.SetPosition(0, center);
         line.SetPosition(1, center + new Vector3(0, axisSize, 0));
 
-        y.transform.position = center + new Vector3(-axisTextOffset, axisSize, 0);
+        y.transform.position = center + new Vector3(axisTextOffset, axisSize, 0);
     }
 }

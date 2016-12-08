@@ -20,7 +20,11 @@ public class CameraController : MonoBehaviour {
         c2 = cameraLeft.GetComponent<Camera>();
         c3 = cameraRight.GetComponent<Camera>();
         c4 = cameraBack.GetComponent<Camera>();
-
+        
+        Matrix4x4 mat = c1.projectionMatrix;
+        mat *= Matrix4x4.Scale(new Vector3(-1, 1, 1));
+        c1.projectionMatrix = mat;
+        
         cameraToggle(cameraMode);
     }
 
@@ -46,8 +50,8 @@ public class CameraController : MonoBehaviour {
         cameraEnable(true);
 
         cameraFront.transform.position = new Vector3(1.08f, 1.25f, 2.95f);
-        cameraFront.transform.rotation = Quaternion.Euler(new Vector3(30, -150, 0));
-        c1.rect = new Rect(0.35f, 0.0f, 0.3f, 0.5f);
+        cameraFront.transform.rotation = Quaternion.Euler(new Vector3(30, -150, 180));
+        c1.rect = new Rect(0.25f, 0.0f, 0.5f, 0.5f);
 
         cameraLeft.transform.position = new Vector3(0.83f, 2.0f, -1.2f);
         cameraLeft.transform.rotation = Quaternion.Euler(new Vector3(45, -30, 0));
@@ -58,7 +62,7 @@ public class CameraController : MonoBehaviour {
         c3.rect = new Rect(0.7f, 0.25f, 0.3f, 0.5f);
 
         cameraBack.transform.position = new Vector3(-0.94f, 2.0f, -1.24f);
-        cameraBack.transform.rotation = Quaternion.Euler(new Vector3(45, 30, 0));
+        cameraBack.transform.rotation = Quaternion.Euler(new Vector3(45, 30, 180));
         c4.rect = new Rect(0.35f, 0.5f, 0.3f, 0.5f);
     }
 

@@ -36,6 +36,7 @@ namespace Leap.Unity {
       for (int i = 0; i < bones.Length; ++i) {
         if (bones[i] != null) {
           bones[i].rotation = GetBoneRotation(i) * Reorientation();
+
           if (deformPosition) {
             bones[i].position = GetJointPosition(i);
           }

@@ -17,7 +17,7 @@ public class DottedLineDrawer : MonoBehaviour {
 	}
 	
 	void Update () {
-        line.SetPosition(0, transform.position);
+        line.SetPosition(0, transform.position + new Vector3(0, 0, 1.5f));
         line.SetPosition(1, gameObject.transform.position);
         line.SetPosition(2, gameObject.transform.position + new Vector3(0, GlobalVariables.radius, 0));
         line.SetPosition(3, gameObject.transform.position);
