@@ -40,6 +40,6 @@ public class KeyboardController : MonoBehaviour {
 
     public static void toggleState(int _state) {
         state = _state;
-        if (_state == MANUAL) GlobalVariables.rotationAngle = Time.time * GlobalVariables.travelSpeed;
+        if (_state == MANUAL) GlobalVariables.rotationAngle = Time.time;
     }
 }

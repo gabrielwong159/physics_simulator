@@ -54,12 +54,14 @@ public class CameraController : MonoBehaviour {
         c1.rect = new Rect(0.25f, 0.0f, 0.5f, 0.5f);
 
         cameraLeft.transform.position = new Vector3(0.83f, 2.0f, -1.2f);
-        cameraLeft.transform.rotation = Quaternion.Euler(new Vector3(45, -30, 0));
-        c2.rect = new Rect(0.0f, 0.25f, 0.3f, 0.5f);
+        cameraLeft.transform.rotation = Quaternion.Euler(new Vector3(45, -30, 90));
+        c2.rect = new Rect(0.1f, 0.25f, 0.3f, 0.5f);
+        c2.depth = 2;
 
         cameraRight.transform.position = new Vector3(-0.96f, 2.0f, 2.53f);
-        cameraRight.transform.rotation = Quaternion.Euler(new Vector3(45, 150, 0));
-        c3.rect = new Rect(0.7f, 0.25f, 0.3f, 0.5f);
+        cameraRight.transform.rotation = Quaternion.Euler(new Vector3(45, 150, 90));
+        c3.rect = new Rect(0.6f, 0.25f, 0.3f, 0.5f);
+        c3.depth = 2;
 
         cameraBack.transform.position = new Vector3(-0.94f, 2.0f, -1.24f);
         cameraBack.transform.rotation = Quaternion.Euler(new Vector3(45, 30, 180));

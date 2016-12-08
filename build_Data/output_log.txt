@@ -16,17 +16,17 @@ Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\
 Loading D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.342 seconds
+- Completed reload, in  0.091 seconds
 Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.976890 ms
+UnloadTime: 0.960789 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 17e0 -> priority: 1 
-  Thread -> id: 2084 -> priority: 1 
+  Thread -> id: 31b8 -> priority: 1 
+  Thread -> id: 2d3c -> priority: 1 
 A group matching that name does not exisit in the modelPool
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
