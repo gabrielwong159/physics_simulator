@@ -16,17 +16,33 @@ Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\
 Loading D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.081 seconds
+- Completed reload, in  0.288 seconds
 Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Documents\Programming\Unity\design-prototype-2\build_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.844936 ms
+UnloadTime: 1.573924 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3328 -> priority: 1 
-  Thread -> id: 2df8 -> priority: 1 
+  Thread -> id: 2490 -> priority: 1 
+  Thread -> id: 994 -> priority: 1 
+A group matching that name does not exisit in the modelPool
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 233.374619 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.597727 ms (FindLiveObjects: 0.041086 ms CreateObjectMapping: 0.049777 ms MarkObjects: 0.327110 ms  DeleteObjects: 0.167901 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.907851 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 669.
+Total: 0.798024 ms (FindLiveObjects: 0.076641 ms CreateObjectMapping: 0.073876 ms MarkObjects: 0.504888 ms  DeleteObjects: 0.141827 ms)
+
 A group matching that name does not exisit in the modelPool
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
