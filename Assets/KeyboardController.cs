@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class KeyboardController : MonoBehaviour {
@@ -6,6 +7,7 @@ public class KeyboardController : MonoBehaviour {
     public const int DEFAULT = 1;
     public const int RADIAL = 2;
     public const int MANUAL = 3;
+    public const int PALPATINE = 0;
 
     public static int state = DEFAULT;
 
@@ -29,6 +31,7 @@ public class KeyboardController : MonoBehaviour {
         if (Input.GetKey(KeyCode.Alpha1)) toggleState(DEFAULT);
         else if (Input.GetKey(KeyCode.Alpha2)) toggleState(RADIAL);
         else if (Input.GetKey(KeyCode.Alpha3)) toggleState(MANUAL);
+        else if (Input.GetKey(KeyCode.Alpha0)) SceneManager.LoadScene("LightningBoltDemo");
 
         if (Input.GetKeyDown(KeyCode.Space)) Time.timeScale = (Time.timeScale == 0) ? 1 : 0;
 

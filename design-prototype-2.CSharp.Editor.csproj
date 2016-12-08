@@ -125,6 +125,7 @@
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\KabschTest.cs" />
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\ShapePoolTest.cs" />
     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\StructAllocatorTest.cs" />
+    <Compile Include="Assets\LightningBolt\Editor\LightningBoltEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeapMotion\Dependencies.txt" />
