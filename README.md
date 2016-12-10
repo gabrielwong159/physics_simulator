@@ -1,5 +1,8 @@
 # A Physics Simulator
 3D unity simulation for Coulomb's Law
+Also a 3D display of Palpatine
+
+To run, only build.exe and build_Data are needed. Place them in the same folder and run build.exe
 
 ## General scripts
 **GlobalVariables.cs**<br />
@@ -48,3 +51,5 @@ Follows ```PointBitchMaster```, which is being controlled via LeapMotion.
 **BitchBallSpecial.cs** <br />
 Follows along the side ```PointBitchMaster```. Used in ```PointAxisX```, ```PointAxisY``` and ```PointAxisZ``` for placement of axes.
 
+###Palpatine mode
+All objects for Palpatine mode are placed in the LightningBolt folder.
