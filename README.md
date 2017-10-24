@@ -46,6 +46,7 @@ Draws the r component of the resultant vector. Replaces the x and y components.
 ## Scripts for movement `Movement`
 **BitchBall.cs**<br>
 Follows ```PointBitchMaster```, which is being controlled via LeapMotion.
+EasterEgg for free SHIRTS
 
 **BitchBallSpecial.cs**<br>
 Follows along the side `PointBitchMaster`. Used in `PointAxisX`, `PointAxisY` and `PointAxisZ` for placement of axes.
